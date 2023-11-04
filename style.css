@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+h{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: white;
+    font-size: 25px;
+    
+}
+h1{
+    position: absolute;  
+    margin-left: 20px;
+    margin-top: 30px;
+    color: white; 
+    font-size: 15px;
+}
+header{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 100%;
+    max-height: 500px;
+}
+.nav-links{
+    position: absolute;
+    right: 35%;
+    top: 30px;
+    
+    
+}
+.nav-links li{
+    list-style: none;
+    display: inline;
+       
+}
+.nav-links li a{
+    margin: 0 15px;
+    color: black;
+    font-weight: 1000;
+    font-size: 20px;
+    
+}
+.nav-links li a:hover{
+    color: red;
+}
+
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    
+}
+h2{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    bottom: 10px;
+    font-size: 300%;
+    color: white;
+}
+h5{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(5, 5, 106); 
+}
+.second_container{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 75px;
+}
+
+.second_container .CourseBtn{
+    width: 500px;
+    background-color: rgb(0, 149, 255);
+
+}
+.partOne{
+    padding: 70px;
+    padding-top: 10px;
+}
+
+.second_container img{
+    width: 500px;
+    height: 300px;
+}

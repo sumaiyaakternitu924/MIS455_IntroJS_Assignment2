@@ -1,0 +1,62 @@
+/* CSS Display Flex (for Page 2) */
+*{
+    margin: 0;
+}
+.navbar {
+    background-color: rgb(9, 9, 114);
+    overflow: hidden;
+}
+
+
+
+header img{
+    width: 100%;
+    max-height: 500px;
+}
+h2{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    bottom: 10px;
+    font-size: 500%;
+    color: white;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    padding: 30px 16px;
+    
+}
+.page.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.middlebody{
+    text-align: center;
+    
+}
+
+.Container{
+    margin-left: 300px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    gap: 2vw;
+
+}
+#PictureTwo img{  
+    width: 500px;
+    height: 300px;
+}
+
+#PictureOne img{   
+    width: 500px;
+    height: 300px;
+}
+h{
+    font-size: 30px;
+    color: rgb(7, 7, 105);
+}
